@@ -42,3 +42,6 @@ ignore = [
     "E731",  # lambda expressions
 ]
 exclude = ["**notebook.ipynb"]
+
+[tool.poetry.dependencies]
+llvmlite = "^0.39.0"
